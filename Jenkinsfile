@@ -1,17 +1,20 @@
 pipeline {
     agent any
+
     stages {
-        stage('Build') {
+        stage('Deploy To Kubernetes') {
             steps {
-                sh 'docker build -t suryadoc321/service:v1 .'
+                withKubeCredentials(kubectlCredentials: [[caCertificate: '', clusterName: 'EKS-1', contextName: '', credentialsId: 'k8-token', namespace: 'webapps', serverUrl: 'https://99B5504F77DEA5C8909A55CC730B6CD2.gr7.ap-south-1.eks.amazonaws.com']]) {
+                    sh "kubectl apply -f deployment-service.yml"
+                    
+                }
             }
         }
-        stage("Push"){
-            steps{
-                script{
-                    withDockerRegistry(credentialsId: 'docker-cred') {
-                        sh 'docker push suryadoc321/service:v1'
-                    }
+        
+        stage('verify Deployment') {
+            steps {
+                withKubeCredentials(kubectlCredentials: [[caCertificate: '', clusterName: 'EKS-1', contextName: '', credentialsId: 'k8-token', namespace: 'webapps', serverUrl: 'https://99B5504F77DEA5C8909A55CC730B6CD2.gr7.ap-south-1.eks.amazonaws.com']]) {
+                    sh "kubectl get svc -n webapps"
                 }
             }
         }
