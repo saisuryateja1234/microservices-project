@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/28437843/README.md)
+[README (1).md](https://github.com/user-attachments/files/28437908/README.1.md)
 # 🛒 Cloud-Native E-Commerce Microservices — DevOps Pipeline on AWS EKS
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -235,6 +235,6 @@ Developer pushes code
 DevOps Engineer | AWS • Kubernetes • Jenkins • Docker • Terraform | CI/CD Automation
 
 [![GitHub](https://img.shields.io/badge/GitHub-saisuryateja1234-181717?style=flat&logo=github)](https://github.com/saisuryateja1234)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](www.linkedin.com/in/suryadevopsengineer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/suryadevopsengineer)
 
 ---
