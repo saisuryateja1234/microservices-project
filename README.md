@@ -235,10 +235,6 @@ Developer pushes code
 DevOps Engineer | AWS • Kubernetes • Jenkins • Docker • Terraform | CI/CD Automation
 
 [![GitHub](https://img.shields.io/badge/GitHub-saisuryateja1234-181717?style=flat&logo=github)](https://github.com/saisuryateja1234)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/saisuryateja)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](www.linkedin.com/in/suryadevopsengineer)
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
